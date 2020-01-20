@@ -1,0 +1,2 @@
+@echo off
+"path of the python interpreter on your system you intend to use for executing this file" "path of your python program"
